@@ -7,8 +7,8 @@ public:
         vector<vector<int>> res;
         
         for(int i = 0; i < n; i++) {
-            if(i > 0 && nums[i] == nums[i - 1]) continue;
-            
+            if(i > 0 && nums[i - 1] == nums[i]) continue;
+
             int j = i + 1;
             int k = n - 1;
 
