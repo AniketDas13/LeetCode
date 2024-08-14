@@ -16,7 +16,7 @@ public:
 
             res = max(res, max(pref, suff));
         }
-
+        
         return res;
     }
 };
